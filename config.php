@@ -73,7 +73,8 @@ $DEFAULT_VALUES['comment'] = "Dear Playstation,\n".
   "\n".
   "Thank you.\n";
 
-$PETITION_DESTINATION = "contact@humblehomebrew.com, kakaroto@kakaroto.homelinux.net";
+$PETITION_DESTINATION = "test_signatures@humblehomebrew.com";
+
 
 function get_petition_destination() {
   return "Sony, SCEA, SCEE, SCEJ, SNEA, Playstation";
