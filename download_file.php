@@ -34,6 +34,10 @@ if($type == "SGTPUZZLES-PS3-3.55") {
   $ip = $_SERVER['REMOTE_ADDR'];
   mysql_query("INSERT INTO downloads (ip, app, os) VALUES ('". $ip ."', 'SGTPuzzles', 'Source')", $con);
   header("Location: ". $SGTPUZZLES_SOURCE_URL);
+} else if($type == "FHEROES2-PS3-3.55") {
+  $ip = $_SERVER['REMOTE_ADDR'];
+  mysql_query("INSERT INTO downloads (ip, app, os) VALUES ('". $ip. "', 'FHEROES2', 'PS3-3.55')", $con);
+  header("Location: ". $FHEROES2_PS3_3_55_URL);
 } else {
   header("Location: download.php");
 }

@@ -5,6 +5,7 @@ $MYSQL_USERNAME = "humbleho_test";
 $MYSQL_PASSWORD = "Rn?FqwZER,Bu";
 $MYSQL_DATABASE = "humbleho_bundle";
 
+$FHEROES2_PS3_3_55_URL = "http://www.megaupload.com/?d=ELAGHNR7";
 $SGTPUZZLES_PS3_3_55_URL = "http://www.multiupload.com/7XJ2AFI53I";
 $SGTPUZZLES_PS3_3_41_URL = "http://www.multiupload.com/Y0OEG3Y800";
 $SGTPUZZLES_ANDROID_URL = "http://chris.boyle.name/projects/android-puzzles/";
