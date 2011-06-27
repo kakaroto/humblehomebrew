@@ -5,14 +5,22 @@ $MYSQL_USERNAME = "humbleho_test";
 $MYSQL_PASSWORD = "Rn?FqwZER,Bu";
 $MYSQL_DATABASE = "humbleho_bundle";
 
-$FHEROES2_PS3_3_55_URL = "http://www.megaupload.com/?d=ELAGHNR7";
+$FHEROES2_PS3_3_55_URL = "http://www.megaupload.com/?d=KVZI64EH";
+$FHEROES2_PS3_3_41_URL = "http://www.megaupload.com/?d=HQB2HYQ0";
+$FHEROES2_ANDROID_URL = "https://market.android.com/details?id=net.sourceforge.fheroes2";
+$FHEROES2_WINDOWS_URL = "http://sourceforge.net/projects/fheroes2/files/fheroes2/fheroes2-20110526-win32-r2356.zip/download";
+$FHEROES2_LINUX_URL = "http://sourceforge.net/projects/fheroes2/files/fheroes2/fheroes2-20110526-linux-r2356.tar.gz/download";
+$FHEROES2_SOURCE_URL = "http://git-hacks.com/humblehomebrew/fheroes2";
+
 $SGTPUZZLES_PS3_3_55_URL = "http://www.multiupload.com/7XJ2AFI53I";
 $SGTPUZZLES_PS3_3_41_URL = "http://www.multiupload.com/Y0OEG3Y800";
 $SGTPUZZLES_ANDROID_URL = "http://chris.boyle.name/projects/android-puzzles/";
 $SGTPUZZLES_WINDOWS_URL = "http://www.chiark.greenend.org.uk/~sgtatham/puzzles/puzzles.zip";
 $SGTPUZZLES_MAC_URL = "http://www.chiark.greenend.org.uk/~sgtatham/puzzles/Puzzles.dmg";
-$SGTPUZZLES_LINUX_URL = "download.php?linux=1";
-$SGTPUZZLES_SOURCE_URL = "https://github.com/kakaroto/SGTPuzzles";
+$SGTPUZZLES_LINUX_URL = "download-sgtpuzzles.php?linux=1";
+$SGTPUZZLES_SOURCE_URL = "http://git-hacks.com/humblehomebrew/sgtpuzzles";
+
+$HUMBLE_SOURCE_URL = "http://git-hacks.com/humblehomebrew";
 
 $PAYPAL_IDENTITY_TOKEN = "SxkGDvbwRvA7fecKZIUuFulVKs5MbpIBO7sTnsEs1SQ3zXmIBuri0LlSVim";
 $PAYPAL_ENVIRONMENT = "sandbox.";

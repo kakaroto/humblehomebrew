@@ -67,10 +67,10 @@
                   <img src="Images/fheroes2_logo.png" height="100" />
                 </td>
                 <td width="36%" align="center"  bgcolor="#FFFFFF" class="style4">
-                  <p> <strong>New!</strong> Free Heroes 2 for PS3 </p>
+                  <p> <strong style="color: #00FF00;">New!</strong> Free Heroes 2 </p>
                 </td>
                 <td width="32%" align="center"  bgcolor="#FFFFFF" class="style4">
-                  <form id="form5" name="form1" method="post" action="download_file.php?type=FHEROES2-PS3-3.55">
+                  <form id="form5" name="form1" method="post" action="download-fheroes2.php">
                     <label>
                       <input type="submit" name="fheroes2" id="fheroes2" value="Download" />
                     </label>
@@ -82,10 +82,10 @@
                   <img src="Images/PlayStation_3_Logo.png" height="100" />
                 </td>
                 <td width="36%" align="center"  bgcolor="#FFFFFF" class="style4">
-                  <p> PS3 3.41 </p>
+                  <p> SGT Puzzles </p>
                 </td>
                 <td width="32%" align="center"  bgcolor="#FFFFFF" class="style4">
-                  <form id="form5" name="form1" method="post" action="download_file.php?type=SGTPUZZLES-PS3-3.41">
+                  <form id="form5" name="form1" method="post" action="download-sgtpuzzles.php">
                     <label>
                       <input type="submit" name="3.41" id="3.41" value="Download" />
                     </label>
@@ -94,64 +94,12 @@
               </tr>
               <tr>
                 <td align="center"  bgcolor="#FFFFFF" class="style4">
-                  <img src="Images/PlayStation_3_Logo.png" alt="" height="100" />
+                  <img src="Images/source-logo.png" alt="" height="100" />
                 </td>
                 <td align="center"  bgcolor="#FFFFFF" class="style4">
-                  <p> PS3 3.55 </p>
+                  <p>Source code of website and homebrew games</p>
                 </td>
-                <td align="center"  bgcolor="#FFFFFF" class="style4">
-                  <form id="form5" name="form1" method="post" action="download_file.php?type=SGTPUZZLES-PS3-3.55">
-                    <label>
-                      <input type="submit" name="3.55" id="3.55" value="Download" />
-                    </label>
-                </form>
-                </td>
-              </tr>
-              <tr>
-                <td align="center"  bgcolor="#FFFFFF" class="style4">
-                  <img src="Images/windows-logo.jpg" alt="" height="90" /></td>
-                <td align="center"  bgcolor="#FFFFFF" class="style4"><p>Windows </p></td>
-                <td align="center"  bgcolor="#FFFFFF" class="style4"><form id="form5" name="form1" method="post" action="download_file.php?type=SGTPUZZLES-Windows">
-                    <label>
-                      <input type="submit" name="Windows" id="Windows" value="Download" />
-                    </label>
-                </form></td>
-              </tr>
-              <tr>
-                <td align="center"  bgcolor="#FFFFFF" class="style4">
-                  <img src="Images/linux-logo.gif" alt="" height="90" /></td>
-                <td align="center"  bgcolor="#FFFFFF" class="style4"><p> Linux </p></td>
-                <td align="center"  bgcolor="#FFFFFF" class="style4"><form id="form5" name="form1" method="post" action="download_file.php?type=SGTPUZZLES-Linux">
-                    <label>
-                      <input type="submit" name="Linux" id="Linux" value="Download" />
-                    </label>
-                </form></td>
-              </tr>
-              <tr>
-                <td align="center"  bgcolor="#FFFFFF" class="style4">
-                  <img src="Images/Apple mac logo.jpg" alt="" height="100" /></td>
-                <td align="center"  bgcolor="#FFFFFF" class="style4"><p>Mac </p></td>
-                <td align="center"  bgcolor="#FFFFFF" class="style4"><form id="form5" name="form1" method="post" action="download_file.php?type=SGTPUZZLES-Mac">
-                    <label>
-                      <input type="submit" name="Mac" id="v" value="Download" />
-                    </label>
-                </form></td>
-              </tr>
-              <tr>
-                <td align="center"  bgcolor="#FFFFFF" class="style4">
-                  <img src="Images/android-logo1.png" alt="" height="100" /></td>
-                <td align="center"  bgcolor="#FFFFFF" class="style4"><p>Android </p></td>
-                <td align="center"  bgcolor="#FFFFFF" class="style4"><form id="form5" name="form1" method="post" action="download_file.php?type=SGTPUZZLES-Android">
-                    <label>
-                      <input type="submit" name="Android" id="Android" value="Download" />
-                    </label>
-                </form></td>
-              </tr>
-              <tr>
-                <td align="center"  bgcolor="#FFFFFF" class="style4">
-                  <img src="Images/source-logo.png" alt="" height="100" /></td>
-                <td align="center"  bgcolor="#FFFFFF" class="style4"><p>Source code </p></td>
-                <td align="center"  bgcolor="#FFFFFF" class="style4"><form id="form5" name="form1" method="post" action="download_file.php?type=SGTPUZZLES-Source">
+                <td align="center"  bgcolor="#FFFFFF" class="style4"><form id="form5" name="form1" method="post" action="download_file.php?type=HUMBLE-Source">
                     <label>
                       <input type="submit" name="Android" id="Android" value="Download" />
                     </label>
@@ -164,14 +112,4 @@
       </table>
     </td>
 
-    <script>
-    <?php
-    if (isset($_GET['linux']) && is_string($_GET['linux']) && $_GET['linux'] == "1") {
-      echo "alert (\"You can find Linux binaries in most distribution.\\n".
-      "We suggest you download the SGT Puzzles directly from your Linux Distribution.\\n".
-      "Package is called 'puzzles' on Fedora, and 'sgt-puzzles' on Ubuntu.\\n".
-      "If you cannot find it, then compiling from source is always a wise choice\");";
-    }
-    ?>
-    </script>
   <?php include('footer.php'); ?>

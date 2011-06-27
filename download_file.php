@@ -34,10 +34,38 @@ if($type == "SGTPUZZLES-PS3-3.55") {
   $ip = $_SERVER['REMOTE_ADDR'];
   mysql_query("INSERT INTO downloads (ip, app, os) VALUES ('". $ip ."', 'SGTPuzzles', 'Source')", $con);
   header("Location: ". $SGTPUZZLES_SOURCE_URL);
+
+
 } else if($type == "FHEROES2-PS3-3.55") {
   $ip = $_SERVER['REMOTE_ADDR'];
   mysql_query("INSERT INTO downloads (ip, app, os) VALUES ('". $ip. "', 'FHEROES2', 'PS3-3.55')", $con);
   header("Location: ". $FHEROES2_PS3_3_55_URL);
+} else if($type == "FHEROES2-PS3-3.41") {
+  $ip = $_SERVER['REMOTE_ADDR'];
+  mysql_query("INSERT INTO downloads (ip, app, os) VALUES ('". $ip. "', 'FHEROES2', 'PS3-3.41')", $con);
+  header("Location: ". $FHEROES2_PS3_3_41_URL);
+} else if($type == 'FHEROES2-Android') {
+  $ip = $_SERVER['REMOTE_ADDR'];
+  mysql_query("INSERT INTO downloads (ip, app, os) VALUES ('". $ip ."', 'FHEROES2', 'Android')", $con);
+  header("Location: ". $FHEROES2_ANDROID_URL);
+} else if($type == 'FHEROES2-Windows') {
+  $ip = $_SERVER['REMOTE_ADDR'];
+  mysql_query("INSERT INTO downloads (ip, app, os) VALUES ('". $ip ."', 'FHEROES2', 'Windows')", $con);
+  header("Location: ". $FHEROES2_WINDOWS_URL);
+} else if($type == 'FHEROES2-Linux') {
+  $ip = $_SERVER['REMOTE_ADDR'];
+  mysql_query("INSERT INTO downloads (ip, app, os) VALUES ('". $ip ."', 'FHEROES2', 'Linux')", $con);
+  header("Location: ". $FHEROES2_LINUX_URL);
+} else if($type == 'FHEROES2-Source') {
+  $ip = $_SERVER['REMOTE_ADDR'];
+  mysql_query("INSERT INTO downloads (ip, app, os) VALUES ('". $ip ."', 'FHEROES2', 'Source')", $con);
+  header("Location: ". $FHEROES2_SOURCE_URL);
+
+
+} else if($type == 'HUMBLE-Source') {
+  $ip = $_SERVER['REMOTE_ADDR'];
+  mysql_query("INSERT INTO downloads (ip, app, os) VALUES ('". $ip ."', 'HUMBLE', 'Source')", $con);
+  header("Location: ". $HUMBLE_SOURCE_URL);
 } else {
   header("Location: download.php");
 }
