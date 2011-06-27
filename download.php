@@ -28,15 +28,19 @@
                 You may download these games free of charge for the platform of your choice.
               </p>
               <p>
-                This <a href="http://www.chiark.greenend.org.uk/~sgtatham/puzzles/">puzzle games collection</a> is copyright 2004-2011 Simon Tatham (portions copyright Richard Boulton, James Harvey, Mike Pinna, Jonas Kölker, Dariusz Olszewski, Michael Schierl, Lambros Lambrou and Bernd Schmidt).
+                The <a href="http://www.chiark.greenend.org.uk/~sgtatham/puzzles/">SGT puzzle games collection</a> is copyright 2004-2011 Simon Tatham (portions copyright Richard Boulton, James Harvey, Mike Pinna, Jonas Kölker, Dariusz Olszewski, Michael Schierl, Lambros Lambrou and Bernd Schmidt).
+              </p>
+              <p>
+                The <a href="http://sourceforge.net/projects/fheroes2">Free Heroes 2</a> game is copyright 2009 Andrey Afletdinov.
               </p>
               <p>
                 The port of these games to the Playstation 3, as well as the Playstation 3 front end is copyright 2011 Youness Alaoui (KaKaRoTo).
               </p>
               <p>
-                These games are distributed under the <a href="http://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/licence.html#licence">MIT licence</a>.
+                The SGT puzzle games are distributed under the <a href="http://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/licence.html#licence">MIT licence</a>.
                 This means that you can do pretty much anything you like with the game binaries or the code, except pretending you wrote them yourself.<br/>
                 Parts of the PS3 port are licensed under the <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL v2.1 License</a>.<br/>
+                The Free Heroes 2 game is distributed under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GPL v2.0 licence</a>.<br/>
               </p>
             </ol>
           </td>
