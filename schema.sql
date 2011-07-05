@@ -34,6 +34,9 @@ CREATE TABLE `donations` (
   `sgt_p` int(11) NOT NULL COMMENT 'sgt percentage',
   `eff_p` int(11) NOT NULL COMMENT 'eff percentage',
   `name` varchar(40) NOT NULL,
+  `transferred` tinyint(1) NOT NULL DEFAULT 0,
+  `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `comment` varchar(255) NOT NULL DEFAULT 'sgt',
   UNIQUE KEY `transaction_id` (`transaction_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;

@@ -93,9 +93,10 @@ if (is_string($tx_token) && $tx_token != "") {
         mysql_real_escape_string($ps3).", ".
         mysql_real_escape_string($sgt).", ".
         mysql_real_escape_string($eff).", ".
-        "'".mysql_real_escape_string($donor)."'";
+        "'".mysql_real_escape_string($donor)."', ".
+        "'sgt+scogger'";
       $ret = mysql_query("INSERT INTO donations (transaction_id, completed, amount, fee, ".
-                         "ps3, sgt, eff, ps3_p, sgt_p, eff_p, name) VALUES (".
+                         "ps3, sgt, eff, ps3_p, sgt_p, eff_p, name, comment) VALUES (".
                          $values.");", $con);
       if ($ret) {
         $msg = "Received donation for token ". $tx_token . "\n".
