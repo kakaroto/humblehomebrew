@@ -67,10 +67,25 @@
             <table width="100%">
               <tr>
                 <td width="32%" align="center"  bgcolor="#FFFFFF" class="style4">
+                  <img src="Images/scogger_logo.png" height="100" />
+                </td>
+                <td width="36%" align="center"  bgcolor="#FFFFFF" class="style4">
+                  <p> <strong style="color: #00FF00;">New!</strong> Scogger HD </p>
+                </td>
+                <td width="32%" align="center"  bgcolor="#FFFFFF" class="style4">
+                  <form id="form5" name="form1" method="post" action="download-scogger.php">
+                    <label>
+                      <input type="submit" name="scogger" id="scogger" value="Download" />
+                    </label>
+                  </form>
+                </td>
+              </tr>
+              <tr>
+                <td width="32%" align="center"  bgcolor="#FFFFFF" class="style4">
                   <img src="Images/fheroes2_logo.png" height="100" />
                 </td>
                 <td width="36%" align="center"  bgcolor="#FFFFFF" class="style4">
-                  <p> <strong style="color: #00FF00;">New!</strong> Free Heroes 2 </p>
+                  <p> Free Heroes 2 </p>
                 </td>
                 <td width="32%" align="center"  bgcolor="#FFFFFF" class="style4">
                   <form id="form5" name="form1" method="post" action="download-fheroes2.php">
@@ -82,7 +97,7 @@
               </tr>
               <tr>
                 <td width="32%" align="center"  bgcolor="#FFFFFF" class="style4">
-                  <img src="Images/PlayStation_3_Logo.png" height="100" />
+                  <img src="Images/puzzles.png" height="100" />
                 </td>
                 <td width="36%" align="center"  bgcolor="#FFFFFF" class="style4">
                   <p> SGT Puzzles </p>

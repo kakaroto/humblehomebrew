@@ -75,7 +75,7 @@
             <table width="100%">
               <tr>
                 <td width="32%" align="center"  bgcolor="#FFFFFF" class="style4">
-                  <img src="Images/fheroes2_logo.png" height="100" />
+                  <img src="Images/PlayStation_3_Logo.png" height="100" />
                 </td>
                 <td width="36%" align="center"  bgcolor="#FFFFFF" class="style4">
                   <p> <strong style="color: #00FF00;">New!</strong> Free Heroes 2 for PS3 3.55 </p>
@@ -90,7 +90,7 @@
               </tr>
               <tr>
                 <td width="32%" align="center"  bgcolor="#FFFFFF" class="style4">
-                  <img src="Images/fheroes2_logo.png" height="100" />
+                  <img src="Images/PlayStation_3_Logo.png" height="100" />
                 </td>
                 <td width="36%" align="center"  bgcolor="#FFFFFF" class="style4">
                   <p> <strong style="color: #00FF00;">New!</strong> Free Heroes 2 for PS3 3.41 </p>
