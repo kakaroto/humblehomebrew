@@ -91,7 +91,7 @@
                         <tr>
                           <td>
                             <p align="right" class="style6">
-                              Amount to send to the original game's developer :
+                              Amount to send to the original games' developers :
                             </p>
                           </td>
                           <td>
@@ -123,7 +123,7 @@
                         <tr>
                           <td>
                             <p align="right" class="style6">
-                              Amount to send to the PS3 Port developer :
+                              Amount to send to the PS3 Port developers :
                             </p>
                           </td>
                           <td>

@@ -50,7 +50,7 @@
           </td>
         </tr>
         <tr>
-          <td align="left"  bgcolor="#FFFFFF" class="style5">
+          <td align="center"  bgcolor="#FFFFFF" class="style5">
             <img src="screenshots/ps3-scogger1.png" width=70% height=70%><br><br>
             <img src="screenshots/ps3-scogger4.png" width=70% height=70%><br><br>
             <img src="screenshots/ps3-scogger2.png" width=70% height=70%><br><br>
