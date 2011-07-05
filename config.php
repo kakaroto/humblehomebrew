@@ -21,8 +21,8 @@ $SGTPUZZLES_LINUX_URL = "download-sgtpuzzles.php?linux=1";
 $SGTPUZZLES_SOURCE_URL = "http://git-hacks.com/humblehomebrew/sgtpuzzles";
 
 
-$SCOGGER_PS3_3_55_URL = "";
-$SCOGGER_PS3_3_41_URL = "";
+$SCOGGER_PS3_3_55_URL = "http://www.megaupload.com/?d=5BS6ZZIM";
+$SCOGGER_PS3_3_41_URL = "http://www.megaupload.com/?d=DNAGL86Q";
 $SCOGGER_HOME_URL = "http://scognito.drunkencoders.com/projects/scogger.php";
 
 $HUMBLE_SOURCE_URL = "http://git-hacks.com/humblehomebrew";
