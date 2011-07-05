@@ -17,7 +17,7 @@
         <tr>
           <td align="center"  bgcolor="#FFFFFF" class="style5">
             <p>&nbsp;</p>
-            <p class="style6">Downloads</p>
+            <p class="style6">Scogger HD</p>
             <p>&nbsp; </p>
           </td>
         </tr>
@@ -25,27 +25,36 @@
           <td align="left"  bgcolor="#FFFFFF" class="style5">
             <ol class="style7 style1">
               <p>
-                You may download these games free of charge for the platform of your choice.
+                <a href="http://scognito.drunkencoders.com/projects/scogger.php">Scogger</a> is a
+                simple puzzle game, released in occasion of the Annual drunkencoders christmas game
+                coding competion.
               </p>
               <p>
-                The <a href="http://www.chiark.greenend.org.uk/~sgtatham/puzzles/">SGT puzzle games collection</a> is copyright 2004-2011 Simon Tatham (portions copyright Richard Boulton, James Harvey, Mike Pinna, Jonas Kölker, Dariusz Olszewski, Michael Schierl, Lambros Lambrou and Bernd Schmidt).
+                This game was developed by Scognito for the Nintendo DS, the PSP, the Wii,
+                the GameCube and for various mobile devices.<br/>
+                It is now released for the PS3 with new HD graphics thanks to
+                <a href="http://spriteattack.cator.de/">SpriteAttack</a>.
               </p>
               <p>
-                The <a href="http://sourceforge.net/projects/fheroes2">Free Heroes 2</a> game is copyright 2009 Andrey Afletdinov.
+                The goal of the game is to make the frog jump over all the tree trunks.
+                The only avaiable direction the frog can move are forward, left and right
+                (no diagonals), with no jump distance limit!
               </p>
               <p>
-                <a href="http://scognito.drunkencoders.com/projects/scogger.php#ps3">Scogger HD</a> is copyright 2011 Scognito.
+                Remember that the frog cannot jump backward!
               </p>
               <p>
-                The PS3 ports of the SGT Puzzles and Free Heroes 2 games to the Playstation 3 are copyright 2011 Youness Alaoui (KaKaRoTo).
-              </p>
-              <p>
-                The SGT puzzle games are distributed under the <a href="http://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/licence.html#licence">MIT licence</a>.
-                This means that you can do pretty much anything you like with the game binaries or the code, except pretending you wrote them yourself.<br/>
-                Parts of the PS3 port are licensed under the <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL v2.1 License</a>.<br/>
-                The Free Heroes 2 game is distributed under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GPL v2.0 licence</a>.<br/>
-              </p>
+                Clean the stage for going to the next level (there are 10 out of 100 random levels)
+              <p/>
             </ol>
+          </td>
+        </tr>
+        <tr>
+          <td align="left"  bgcolor="#FFFFFF" class="style5">
+            <img src="screenshots/ps3-scogger1.png" width=70% height=70%><br><br>
+            <img src="screenshots/ps3-scogger4.png" width=70% height=70%><br><br>
+            <img src="screenshots/ps3-scogger2.png" width=70% height=70%><br><br>
+            <img src="screenshots/ps3-scogger7.png" width=70% height=70%><br><br>
           </td>
         </tr>
         <tr>
@@ -67,15 +76,15 @@
             <table width="100%">
               <tr>
                 <td width="32%" align="center"  bgcolor="#FFFFFF" class="style4">
-                  <img src="Images/fheroes2_logo.png" height="100" />
+                  <img src="Images/PlayStation_3_Logo.png" height="100" />
                 </td>
                 <td width="36%" align="center"  bgcolor="#FFFFFF" class="style4">
-                  <p> <strong style="color: #00FF00;">New!</strong> Free Heroes 2 </p>
+                  <p> Scogger HD for PS3 3.55 </p>
                 </td>
                 <td width="32%" align="center"  bgcolor="#FFFFFF" class="style4">
-                  <form id="form5" name="form1" method="post" action="download-fheroes2.php">
+                  <form id="form5" name="form1" method="post" action="download_file.php?type=SCOGGER-PS3-3.55">
                     <label>
-                      <input type="submit" name="fheroes2" id="fheroes2" value="Download" />
+                      <input type="submit" name="scogger" id="scogger" value="Download" />
                     </label>
                   </form>
                 </td>
@@ -85,26 +94,26 @@
                   <img src="Images/PlayStation_3_Logo.png" height="100" />
                 </td>
                 <td width="36%" align="center"  bgcolor="#FFFFFF" class="style4">
-                  <p> SGT Puzzles </p>
+                  <p> Scogger HD for PS3 3.41 </p>
                 </td>
                 <td width="32%" align="center"  bgcolor="#FFFFFF" class="style4">
-                  <form id="form5" name="form1" method="post" action="download-sgtpuzzles.php">
+                  <form id="form5" name="form1" method="post" action="download_file.php?type=SOGGER-PS3-3.41">
                     <label>
-                      <input type="submit" name="3.41" id="3.41" value="Download" />
+                      <input type="submit" name="scogger" id="scogger" value="Download" />
                     </label>
                   </form>
                 </td>
               </tr>
               <tr>
                 <td align="center"  bgcolor="#FFFFFF" class="style4">
-                  <img src="Images/source-logo.png" alt="" height="100" />
+                  <img src="Images/scogger_logo.png" alt="" height="100" />
                 </td>
                 <td align="center"  bgcolor="#FFFFFF" class="style4">
-                  <p>Source code of website and homebrew games</p>
+                  <p>Scogger home page and other versions</p>
                 </td>
-                <td align="center"  bgcolor="#FFFFFF" class="style4"><form id="form5" name="form1" method="post" action="download_file.php?type=HUMBLE-Source">
+                <td align="center"  bgcolor="#FFFFFF" class="style4"><form id="form5" name="form1" method="post" action="download_file.php?type=SCOGGER-HOME">
                     <label>
-                      <input type="submit" name="Android" id="Android" value="Download" />
+                      <input type="submit" name="source" id="source" value="Download" />
                     </label>
                 </form>
                 </td>

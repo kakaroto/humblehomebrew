@@ -20,6 +20,11 @@ $SGTPUZZLES_MAC_URL = "http://www.chiark.greenend.org.uk/~sgtatham/puzzles/Puzzl
 $SGTPUZZLES_LINUX_URL = "download-sgtpuzzles.php?linux=1";
 $SGTPUZZLES_SOURCE_URL = "http://git-hacks.com/humblehomebrew/sgtpuzzles";
 
+
+$SCOGGER_PS3_3_55_URL = "";
+$SCOGGER_PS3_3_41_URL = "";
+$SCOGGER_HOME_URL = "http://scognito.drunkencoders.com/projects/scogger.php";
+
 $HUMBLE_SOURCE_URL = "http://git-hacks.com/humblehomebrew";
 
 $PAYPAL_IDENTITY_TOKEN = "SxkGDvbwRvA7fecKZIUuFulVKs5MbpIBO7sTnsEs1SQ3zXmIBuri0LlSVim";

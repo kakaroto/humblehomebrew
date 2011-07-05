@@ -62,6 +62,19 @@ if($type == "SGTPUZZLES-PS3-3.55") {
   header("Location: ". $FHEROES2_SOURCE_URL);
 
 
+} else if($type == "SCOGGER-PS3-3.55") {
+  $ip = $_SERVER['REMOTE_ADDR'];
+  mysql_query("INSERT INTO downloads (ip, app, os) VALUES ('". $ip. "', 'SCOGGER', 'PS3-3.55')", $con);
+  header("Location: ". $SCOGGER_PS3_3_55_URL);
+} else if($type == "FHEROES2-PS3-3.41") {
+  $ip = $_SERVER['REMOTE_ADDR'];
+  mysql_query("INSERT INTO downloads (ip, app, os) VALUES ('". $ip. "', 'SCOGGER', 'PS3-3.41')", $con);
+  header("Location: ". $SCOGGER_PS3_3_41_URL);
+} else if($type == 'SCOGGER-HOME') {
+  $ip = $_SERVER['REMOTE_ADDR'];
+  mysql_query("INSERT INTO downloads (ip, app, os) VALUES ('". $ip ."', 'SCOGGER', 'Android')", $con);
+  header("Location: ". $SCOGGER_HOME_URL);
+
 } else if($type == 'HUMBLE-Source') {
   $ip = $_SERVER['REMOTE_ADDR'];
   mysql_query("INSERT INTO downloads (ip, app, os) VALUES ('". $ip ."', 'HUMBLE', 'Source')", $con);
