@@ -62,30 +62,45 @@ $DEFAULT_VALUES['sgt'] = 40;
 $DEFAULT_VALUES['ps3'] = 40;
 $DEFAULT_VALUES['eff'] = 20;
 $DEFAULT_VALUES['donor'] = "Anonymous";
-$DEFAULT_VALUES['comment'] = "Dear Playstation,\n".
-  "\n".
-  "As a loyal customer to your brand, I am disappointed in your reaction to the Homebrew Community. ".
-  "You must know that the homebrew community is not a threat to your business model in any way and that ".
-  "the biggest threat you could ever face is lost loyalty of the users who have supported you.\n".
-  "\n".
-  "Recent actions towards your customers, whether it is the removal of an advertised feature (OtherOS) ".
-  "without any consideration of your previous promises; Or your unlawful and abusive lawsuits, coupled with ".
-  "all the scare tactics that you tried to use against the community that supports you; Or your ridiculous ".
-  "claims that the hardware you have sold is still your property even after you happily took our hard-earned money; ".
-  "Or the recent loss of personal information of nearly 100 million of your customers, has tarnished your brand, ".
-  "your reputation and the loyalty of your fans. It is now time for you to step up and fix your previous ".
-  "wrongdoings before it is too late.\n".
-  "\n".
-  "We hereby request from you, that you provide us with a legitimate and free method of running homebrew applications ".
-  "on our Playstation 3 systems. By accepting and embracing the homebrew community, you will gain back trust, and you ".
-  "will be respected again by gamers all over the world. We request a free SDK and a free method of running and ".
-  "distributing non-commercial applications that can run without restrictions, on the hardware that we rightfully own.\n".
-  "\n".
-  "Apple (App Store), Microsoft (Xbox Live Indie Games), and Google (Android Market) have already embraced the homebrew ".
-  "community and fill this need for community driven games. As a result, they are generating huge revenues with ".
-  " absolutely no investment required from their part.\n".
-  "\n".
-  "Thank you.\n";
+$DEFAULT_VALUES['comment'] = "Dear SCE,\n".
+ "\n".
+ "As a loyal customer, I am devastated by your reaction to the homebrew\n".
+ "community. These people are not a threat to your business in any way.\n".
+ "The biggest threat you could ever face is losing the loyalty of users\n".
+ "who have supported you since 1994. It is in Computer Entertainment\'s\n".
+ "best interest to look at its rivals' tactics and encourage the\n".
+ "development of consumer-generated games.\n".
+ "\n".
+ "Recent actions by SCE have tarnished the brand, your reputation, and\n".
+ "disturbed the loyalty of your fans. Those actions include the removal\n".
+ "of an advertised feature (OtherOS) and unlawful and abusive lawsuits;\n".
+ "coupled with the scare tactics you tried to use against the community\n".
+ "that supports and defends you. Also, the ridiculous claims that the\n".
+ "hardware you have sold is still your property, even after you have\n".
+ "happily taken our hard-earned money. It is time to step up and fix\n".
+ "your wrongdoings, before it is too late.\n".
+ "\n".
+ "Our desire is simple: a legitimate and free method of running homebrew\n".
+ "applications on our Playstation 3 systems. By accepting and embracing\n".
+ "the homebrew community, you will regain a great deal of trust and the\n".
+ "respect of gamers all over the world. We desire a free SDK geared\n".
+ "toward homebrew development, and a free method of running and\n".
+ "distributing non-commercial applications. Applications that can run\n".
+ "without restrictions, on the hardware that we rightfully own.\n".
+ "\n".
+ "Apple (App Store), Microsoft (Xbox Live Indie Games), and Google\n".
+ "(Android Market) have already embraced homebrew development and\n".
+ "fulfill the need for community-driven games. As a result, they are\n".
+ "generating huge revenues with meager investment.\n".
+"\n".
+ "SCE\'s actions have left many of us uneasy and, in some cases,\n".
+ "ashamed. That said, if you do make the effort to support home-grown\n".
+ "developers, we will stand for and continue to support you wherever we\n".
+ "can.\n".
+ "\n".
+ "Respectfully,\n";
+
+
 
 $PETITION_DESTINATION = "test_signatures@humblehomebrew.com";
 
